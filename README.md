@@ -24,7 +24,7 @@ In this assignment, I have used deep learning recurrent neural networks to model
 Which model has a lower loss?
 >LSTM Stock Predictor Using Closing Prices has a lower loss.
 
->Loss basis Closing Prices is 0.0487 and the Loss basis Fear and Greed Index is 0.1911
+>Loss basis Closing Prices is 0.0335 and the Loss basis Fear and Greed Index is 0.1556
 
 
 Which model tracks the actual values better over time?
@@ -42,8 +42,10 @@ Which model tracks the actual values better over time?
 
 
 Which window size works best for the model?
->Window size of 10 works best for the model.
+>Window size of 1 day works best for the model as the loss is the lowest. 
+>With Window size of 1 day the loss basis Closing Prices is 0.0335 and the Loss basis Fear and Greed Index is 0.1556
 
+>With Window size of 10 days the Loss basis Closing Prices is 0.0886 and the Loss basis Fear and Greed Index is 0.3022
 
 - - -
 
